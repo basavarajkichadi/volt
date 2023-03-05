@@ -230,6 +230,11 @@ public class SauceDemo implements Locators,TestData {
 			driver=null;
 		}
 	}
+	@Test(priority=6)
+	public void addition()
+	{
+		System.out.println("this is addition method");
+	}
 
 }
 
